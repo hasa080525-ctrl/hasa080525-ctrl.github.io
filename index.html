@@ -161,6 +161,14 @@ ul{margin:0;padding:0;list-style:none;}
 .bar small{position:absolute;bottom:-24px;font-size:.72rem;color:var(--gray);}
 .chart-note{text-align:center;font-size:.76rem;color:var(--gray);margin-top:30px;}
 
+/* SUCCESS CASES */
+.cases{background:var(--cream);background-image:radial-gradient(circle, rgba(0,0,0,.05) 1.5px, transparent 1.6px);background-size:16px 16px;}
+.case-grid{display:grid;gap:14px;margin-top:26px;}
+.case-card{background:#fff;border:2.5px solid var(--black);border-radius:14px;padding:18px;text-align:left;box-shadow:4px 4px 0 rgba(0,0,0,.12);}
+.case-tag{display:inline-block;background:var(--red);color:#fff;font-family:'Black Han Sans',sans-serif;font-size:.72rem;padding:5px 13px;border-radius:20px;margin-bottom:10px;}
+.case-card h3{font-size:1.02rem;margin-bottom:6px;}
+.case-card p{font-size:.85rem;color:var(--gray);margin:0;}
+
 /* PAIN POINTS */
 .pain .bubble2{
   border:2.5px solid var(--black);border-radius:50px;padding:13px 20px;display:inline-block;
@@ -360,10 +368,10 @@ body{padding-bottom:62px;}
   <div class="poster">
     <h2 class="reveal">학생과 학부모님이 보내주신 후기</h2>
     <div class="bubble-grid">
-      <div class="bubble reveal" style="--rr:-1deg">학교 시험 범위에 맞춰 핵심만 짚어주셔서 시험기간이 훨씬 편해졌어요.<span class="who">- 국제학교 10학년 학부모</span></div>
-      <div class="bubble reveal" style="--rr:1deg">영어로 진행되는 수학 수업이 처음엔 걱정됐는데 금방 익숙해졌어요.<span class="who">- 국제학교 8학년</span></div>
-      <div class="bubble reveal" style="--rr:1.5deg">에세이 첨삭을 받을 때마다 논리가 점점 또렷해지는 게 느껴져요.<span class="who">- 국제학교 11학년</span></div>
-      <div class="bubble reveal" style="--rr:-1.5deg">아이 학습 패턴을 정확히 파악하고 수업해주셔서 믿고 맡기고 있어요.<span class="who">- 학부모</span></div>
+      <div class="bubble reveal" style="--rr:-1deg">IB 내부평가 마감 때마다 방향을 못 잡았는데, 체크리스트로 순서를 짚어주시니 훨씬 수월했어요.<span class="who">- 국제학교 12학년 학부모</span></div>
+      <div class="bubble reveal" style="--rr:1deg">과학 개념을 우리말로 먼저 이해시켜주고 나서 영어 용어로 연결해주셔서 헷갈리지 않았어요.<span class="who">- 국제학교 9학년</span></div>
+      <div class="bubble reveal" style="--rr:1.5deg">발표 수업 전에 리허설까지 봐주셔서 자신감 있게 발표할 수 있었어요.<span class="who">- 국제학교 10학년</span></div>
+      <div class="bubble reveal" style="--rr:-1.5deg">전학 온 지 얼마 안 돼 진도를 따라가기 힘들어했는데, 학교 커리큘럼에 맞춰 빠르게 보충해주셨어요.<span class="who">- 학부모</span></div>
     </div>
   </div>
 </section>
@@ -379,6 +387,30 @@ body{padding-bottom:62px;}
       <div class="bar" style="height:92%"><span>A-</span><small>3개월</small></div>
     </div>
     <p class="chart-note">※ 예시 그래프이며 학생별 학습 속도에 따라 결과는 다를 수 있습니다</p>
+  </div>
+</section>
+
+<section class="sec cases center" id="cases">
+  <div class="poster">
+    <h2 class="reveal">함께 만든 합격사례</h2>
+    <p class="sub reveal" style="color:var(--gray)">막막했던 국제학교 생활, 목표를 이루기까지의 과정을 소개합니다</p>
+    <div class="case-grid">
+      <div class="case-card reveal">
+        <span class="case-tag">편입 성공</span>
+        <h3>전학 3개월 만에 학교 상위권 진입</h3>
+        <p>새 학교 커리큘럼에 적응하지 못해 불안해하던 9학년 학생, 과목별 맞춤 보충 학습으로 첫 학기 만에 상위 15% 성적을 받았어요.</p>
+      </div>
+      <div class="case-card reveal">
+        <span class="case-tag">AP 만점</span>
+        <h3>AP Calculus·Physics 나란히 5점 달성</h3>
+        <p>개념이 흔들려 어려워하던 11학년 학생이 기초부터 다시 다진 끝에 두 과목 모두 만점을 받고 조기전형에 합격했어요.</p>
+      </div>
+      <div class="case-card reveal">
+        <span class="case-tag">특목고 합격</span>
+        <h3>에세이 첨삭으로 완성한 지원서</h3>
+        <p>여러 번 탈락 경험이 있던 학생이 자기소개서와 면접을 처음부터 함께 준비해 목표하던 특목고에 최종 합격했어요.</p>
+      </div>
+    </div>
   </div>
 </section>
 
